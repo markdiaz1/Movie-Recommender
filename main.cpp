@@ -13,7 +13,7 @@ using namespace std;
 
 
 const string USER_DATAFILE  = "/Users/markdiaz/Desktop/Pnetflix/users.txt";
-const string MOVIE_DATAFILE = "/Users/markdiaz/Desktop/Pnetflix/users.txt";
+const string MOVIE_DATAFILE = "/Users/markdiaz/Desktop/Pnetflix/movies.txt";
 
 void findMatches(const Recommender& r,
                  const MovieDatabase& md,
