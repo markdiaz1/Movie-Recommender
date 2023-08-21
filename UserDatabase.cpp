@@ -86,4 +86,3 @@ UserDatabase::~UserDatabase()
         delete (*it);
     }
 }
-

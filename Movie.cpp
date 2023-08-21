@@ -12,9 +12,9 @@ Movie::Movie(const string& id, const string& title, const string& release_year,
 :m_id(id), m_title(title), m_year(release_year), m_directors(directors), m_actors(actors), m_genres(genres), m_rating(rating)
 {}
 
-string Movie::get_id() const
-{
-    return m_id;
+string Movie::get_id() const 
+{   
+    return m_id; 
 }
 
 string Movie::get_title() const

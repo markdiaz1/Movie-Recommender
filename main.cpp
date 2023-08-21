@@ -12,8 +12,8 @@ using namespace std;
 // e.g. Both actors Robert Downey Jr and Chris Evans both map to Avengers: Endgame
 
 
-const string USER_DATAFILE  = "/Users/markdiaz/Desktop/Pnetflix/users.txt";
-const string MOVIE_DATAFILE = "/Users/markdiaz/Desktop/Pnetflix/movies.txt";
+const string USER_DATAFILE  = "/Users/markdiaz/Desktop/Pnetflix/Textfiles/users.txt";
+const string MOVIE_DATAFILE = "/Users/markdiaz/Desktop/Pnetflix/Textfiles/movies.txt";
 
 void findMatches(const Recommender& r,
                  const MovieDatabase& md,
