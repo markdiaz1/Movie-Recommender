@@ -8,8 +8,8 @@
 using namespace std;
 
 // This main file serves as a driver for the movie recommnedation system
-// Implemented using a Tree Multi Map that maps different keys to the same values
-// e.g. Both actors Robert Downey Jr and Chris Evans both map to Avengers: Endgame
+// implemented using a Tree Multi Map that maps different keys to the same values
+// e.g. Both actors Robert Downey Jr and Chris Evans map to Avengers: Endgame
 
 
 const string USER_DATAFILE  = "/Users/markdiaz/Desktop/Pnetflix/Textfiles/users.txt";
