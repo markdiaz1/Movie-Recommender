@@ -40,7 +40,7 @@ vector<MovieAndRank> Recommender::recommend_movies(const string& user_email, int
             for(int k = 0; k < movies_with_dir.size(); k++) // insert those movies with that director
             {
                 string id = movies_with_dir.at(k)->get_id();
-                map[id] += 20;
+                map[id] += 30;
             }
         }
         
@@ -51,7 +51,7 @@ vector<MovieAndRank> Recommender::recommend_movies(const string& user_email, int
             for(int k = 0; k < movies_with_actor.size(); k++) // insert those movies with that actor
             {
                 string id = movies_with_actor.at(k)->get_id();
-                map[id] += 30;
+                map[id] += 20;
             }
         }
         
@@ -62,7 +62,7 @@ vector<MovieAndRank> Recommender::recommend_movies(const string& user_email, int
             for(int k = 0; k < movies_with_genre.size(); k++) //insert those movies with those genres
             {
                 string id = movies_with_genre.at(k)->get_id();
-                map[id] += 1;
+                map[id] += 15;
             }
         }
         
